@@ -7,10 +7,26 @@ import { GiLeafSwirl, GiPlantSeed, GiHerbsBundle } from 'react-icons/gi';
 import { useApp } from '../context/AppContext';
 
 const features = [
-  { icon: <FiShield className="text-2xl" />, title: '100% Organic', desc: 'Certified organic products, free from harmful chemicals.' },
-  { icon: <FiTruck className="text-2xl" />, title: 'Fast Delivery', desc: 'Free shipping on orders above ₹999 across India.' },
-  { icon: <FiAward className="text-2xl" />, title: 'Premium Quality', desc: 'Handpicked and lab-tested for purity and potency.' },
-  { icon: <FiRefreshCw className="text-2xl" />, title: 'Easy Returns', desc: '7-day hassle-free return policy on all products.' },
+ {
+  icon: <FiShield className="text-2xl" />,
+  title: "Premium Quality",
+  desc: "Crafted from high-quality fabrics with exceptional finishing."
+},
+{
+  icon: <FiTruck className="text-2xl" />,
+  title: "Free Shipping",
+  desc: "Enjoy free delivery on eligible orders across India."
+},
+{
+  icon: <FiAward className="text-2xl" />,
+  title: "Exclusive Designs",
+  desc: "Handpicked ethnic and contemporary collections for every celebration."
+},
+{
+  icon: <FiRefreshCw className="text-2xl" />,
+  title: "Easy Exchange",
+  desc: "Simple 7-day exchange and return process for your convenience."
+},
 ];
 
 const categoryIcons = {
@@ -95,9 +111,9 @@ const Home = () => {
       <section className="py-10 px-4 bg-gradient-to-r from-indigo-800 to-orange-500">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-white">
           <div>
-            <h3 className="text-2xl sm:text-3xl font-extrabold mb-2">🌿 New Arrivals This Season</h3>
+            <h3 className="text-2xl sm:text-3xl font-extrabold mb-2"> New Arrivals This Season</h3>
             <p className="text-white/80 text-sm sm:text-base">
-              Explore our latest range of superfoods and herbal extracts. Use code <strong>NEW20</strong> for 20% off.
+              Explore our latest range of Sarees and kurties. Use code <strong>NEW20</strong> for 20% off.
             </p>
           </div>
           <button
@@ -140,7 +156,7 @@ const Home = () => {
             Stay in the Loop
           </h2>
           <p className="text-gray-500 mb-6 text-sm sm:text-base">
-            Subscribe for exclusive offers, health tips, and new product launches.
+            Subscribe for exclusive offers, new fashion, and traditional wear.
           </p>
           <form
             className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto"

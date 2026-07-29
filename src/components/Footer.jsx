@@ -11,7 +11,7 @@ const footerLinks = {
   'Quick Links': [
     { label: 'Home', page: 'home' },
     { label: 'Products', page: 'products' },
-    { label: 'Ingredients', page: 'ingredients' },
+    // { label: 'Ingredients', page: 'ingredients' },
     { label: 'About Us', page: 'about' },
   ],
   'Support': [
@@ -21,10 +21,10 @@ const footerLinks = {
     { label: 'Track Order', page: null },
   ],
   'Categories': [
-    { label: 'Superfoods', page: 'products' },
-    { label: 'Herbs & Extracts', page: 'products' },
-    { label: 'Organic Oils', page: 'products' },
-    { label: 'Natural Seeds', page: 'products' },
+    { label: 'Kurtis', page: 'products' },
+    { label: 'Sarres', page: 'products' },
+    { label: 'dress', page: 'products' },
+    { label: 'Traditional wear', page: 'products' },
   ],
 };
 
@@ -48,22 +48,25 @@ const Footer = () => {
         <div className="lg:col-span-2 space-y-4">
           <Logo size="md" dark />
           <p className="text-sm leading-relaxed text-gray-400 max-w-xs mt-2">
-            Green Health brings you the finest organic health products sourced directly from nature.
-            Pure. Potent.
+            Shop beautifully crafted sarees, elegant kurtis, and stylish dresses designed to make every moment special.
           </p>
           {/* Contact */}
           <div className="space-y-2 text-sm">
             <div className="flex items-center gap-2 text-gray-400">
               <FiMail className="text-orange-400 flex-shrink-0" />
-              <span>greenhealthagrofoods@gmail.com</span>
+              <span>sareesbylove@gmail.com</span>
             </div>
             <div className="flex items-center gap-2 text-gray-400">
               <FiPhone className="text-orange-400 flex-shrink-0" />
-              <span> +91 9607171004, 7030315603</span>
+              <span> +91 9876543210</span>
             </div>
             <div className="flex items-start gap-2 text-gray-400">
               <FiMapPin className="text-orange-400 flex-shrink-0 mt-0.5" />
-              <span>Gat No. 427/2, Alka Farm, A/P-Tal - Kagal, Dist - Kolhapur Maharashtra - 416216, INDIA</span>
+              <span>Fashion Hub
+                123 MG Road
+                Near City Mall
+                Bengaluru, Karnataka 560001
+                India</span>
             </div>
           </div>
           {/* Socials */}
@@ -118,7 +121,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-gray-500">
           <div className="flex items-center gap-1">
             <GiLeafSwirl className="text-orange-500" />
-            <span>© 2025 Green Health Agro Foods. Designed By TheWifix.</span>
+            <span>© 2025 Sarees By Love. Designed By TheWifix.</span>
           </div>
           <div className="flex gap-4">
             <button className="hover:text-orange-400 transition-colors">Privacy Policy</button>

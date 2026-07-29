@@ -1,35 +1,36 @@
 import React from 'react';
 import { FiCheckCircle, FiTarget, FiHeart } from 'react-icons/fi';
-import { GiLeafSwirl, GiPlantSeed, GiFarmer } from 'react-icons/gi';
+import { GiLeafSwirl, GiPlantSeed, GiFarmer, GiClothes, GiSewingMachine, GiDiamondRing } from 'react-icons/gi';
 
 const values = [
   {
-    icon: <GiLeafSwirl className="text-3xl text-orange-600" />,
-    title: 'Sustainability',
-    desc: 'We source products from ethical, sustainable farms that care for the earth as much as we do.',
+    icon: <GiClothes className="text-3xl text-orange-600" />,
+    title: "Premium Fabrics",
+    desc: "We carefully select high-quality fabrics to ensure exceptional comfort, durability, and elegance in every outfit.",
   },
   {
     icon: <FiHeart className="text-3xl text-orange-600" />,
-    title: 'Health First',
-    desc: 'Every product is carefully formulated and lab-tested to ensure maximum health benefits.',
+    title: "Customer Satisfaction",
+    desc: "Your happiness is our priority. We strive to provide stylish collections, secure shopping, and excellent customer service.",
   },
   {
-    icon: <GiFarmer className="text-3xl text-orange-600" />,
-    title: 'Farmer Support',
-    desc: 'We partner directly with local farmers, ensuring fair trade and better livelihoods.',
+    icon: <GiSewingMachine className="text-3xl text-orange-600" />,
+    title: "Expert Craftsmanship",
+    desc: "Our sarees, kurtis, and dresses are crafted by skilled artisans with attention to every detail and finish.",
   },
   {
-    icon: <GiLeafSwirl className="text-3xl text-orange-600" />,
-    title: 'Global Standards',
-    desc: 'Our products meet international organic certification standards including FSSAI and ISO.',
+    icon: <GiDiamondRing className="text-3xl text-orange-600" />,
+    title: "Timeless Elegance",
+    desc: "Blending traditional artistry with modern fashion to create outfits perfect for every occasion.",
   },
 ];
 
+
 const stats = [
-  { value: '50+', label: 'Organic Products' },
-  { value: '10K+', label: 'Happy Customers' },
-  { value: '100%', label: 'Natural Ingredients' },
-  { value: '5+', label: 'Years of Trust' },
+  { value: "1000+", label: "Designer Collections" },
+  { value: "15K+", label: "Satisfied Customers" },
+  { value: "50+", label: "Latest Styles" },
+  { value: "8+", label: "Years of Excellence" },
 ];
 
 const team = [
@@ -67,11 +68,13 @@ const About = () => {
             <GiLeafSwirl /> Our Story
           </span>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-5 leading-tight">
-            Rooted in Nature,<br />Driven by Health
+            Celebrating Tradition,<br />Crafting Elegance
           </h1>
           <p className="text-white/85 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
-            Green Health was founded with a single vision — to make premium organic health products
-            accessible to every Indian household. From farm to your doorstep, we ensure purity at every step.
+            We are passionate about bringing timeless ethnic fashion to every wardrobe.
+            Our carefully curated collection of sarees, kurtis, dresses, and traditional
+            wear combines premium craftsmanship, elegant designs, and exceptional quality,
+            making every occasion truly special.
           </p>
         </div>
       </section>
@@ -97,15 +100,17 @@ const About = () => {
               Our Mission & Commitment
             </h2>
             <p className="text-gray-600 leading-relaxed mb-5">
-              At Green Health, we believe that what you put into your body matters. Our mission is to
-              provide clean, effective, and affordable health solutions using nature's finest ingredients.
+              We are committed to bringing you premium ethnic fashion that blends
+              tradition with modern elegance. Every saree, kurti, and dress is
+              carefully selected to offer superior quality, timeless style, and
+              exceptional comfort for every occasion.
             </p>
             <ul className="space-y-3">
               {[
-                'All products are FSSAI certified and lab tested',
-                'Zero harmful chemicals or artificial additives',
-                'Eco-friendly packaging and carbon-neutral shipping',
-                'Direct partnerships with 100+ organic farmers',
+                "Premium quality fabrics with superior craftsmanship",
+                "Exclusive collections featuring the latest ethnic fashion trends",
+                "Secure shopping with fast delivery across India",
+                "Easy 7-day return and exchange policy",
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3 text-gray-700 text-sm">
                   <FiCheckCircle className="text-orange-500 text-lg flex-shrink-0 mt-0.5" />
@@ -122,8 +127,8 @@ const About = () => {
             />
             <div className="absolute -bottom-4 -left-4 bg-orange-600 text-white p-4 rounded-xl shadow-lg">
               <GiPlantSeed className="text-3xl mb-1" />
-              <div className="font-bold text-sm">Farm to Table</div>
-              <div className="text-xs text-orange-200">100% traceable supply chain</div>
+              <div className="font-bold text-sm">Traditional Wear</div>
+              <div className="text-xs text-orange-200">Premium Collection </div>
             </div>
           </div>
         </div>
@@ -177,9 +182,9 @@ const About = () => {
       {/* CTA */}
       <section className="py-14 px-4 bg-gradient-to-r from-orange-700 to-indigo-600 text-white text-center">
         <FiTarget className="text-5xl mx-auto mb-4 opacity-80" />
-        <h2 className="text-3xl font-extrabold mb-3">Ready to Start Your Health Journey?</h2>
+        <h2 className="text-3xl font-extrabold mb-3">Discover Your Perfect Ethnic Style</h2>
         <p className="text-white/80 mb-6 max-w-lg mx-auto text-sm">
-          Browse our full range of organic products and take the first step toward a healthier you.
+          Explore our exclusive collection of sarees, kurtis, dresses, and traditional wear. Find the perfect outfit for every occasion with premium quality and timeless elegance.
         </p>
       </section>
     </div>

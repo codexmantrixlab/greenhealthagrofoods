@@ -7,7 +7,7 @@ import Logo from './Logo';
 const navLinks = [
   { label: 'Home', page: 'home' },
   { label: 'Products', page: 'products' },
-  { label: 'Ingredients', page: 'ingredients' },
+  // { label: 'Ingredients', page: 'ingredients' },
   { label: 'About', page: 'about' },
 ];
 
@@ -43,7 +43,7 @@ const Navbar = () => {
       <div className="bg-indigo-700 text-white text-center py-2 text-xs sm:text-sm font-medium tracking-wide">
         <span className="flex items-center justify-center gap-2">
           <MdLocalOffer className="text-yellow-300" />
-          Free shipping on orders above ₹999 | Use code <strong>GREENHEALTH10</strong> for 10% off
+          Free shipping on orders above ₹999 | Use code <strong>SAREELOVE10</strong> for 10% off
           <MdLocalOffer className="text-yellow-300" />
         </span>
       </div>
